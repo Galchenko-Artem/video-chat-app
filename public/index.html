@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Видео Комната</title>
+  <link href="/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+  <div class="bg-white p-6 rounded shadow-md">
+    <h1 class="text-2xl mb-4">Введите идентификатор комнаты и ваше имя</h1>
+    <form id="room-form">
+      <input type="text" id="room-id" class="border p-2 w-full mb-4" placeholder="Идентификатор комнаты" required>
+      <input type="text" id="username" class="border p-2 w-full mb-4" placeholder="Ваше имя" required>
+      <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Войти в комнату</button>
+    </form>
+  </div>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
